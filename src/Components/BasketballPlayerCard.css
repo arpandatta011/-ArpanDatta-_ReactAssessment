@@ -1,0 +1,45 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #ccc;
+}
+.player-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  margin: 16px auto;
+  transition: transform 0.2s;
+}
+
+.player-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.player-image {
+  width: 100%;
+  height: auto;
+  border-radius: 6%;
+  margin-bottom: 16px;
+}
+
+.player-name {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.player-position {
+  font-size: 1.2em;
+  margin-bottom: 16px;
+  color: #777;
+}
+
+.player-stats p {
+  margin: 8px 0;
+  font-size: 1em;
+  color: #555;
+}
